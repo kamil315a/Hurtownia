@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "916056259583",
+    "firebase_url": "https://auth-ed041.firebaseio.com",
+    "project_id": "auth-ed041",
+    "storage_bucket": "auth-ed041.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916056259583:android:58b56fab27184c910805ca",
+        "android_client_info": {
+          "package_name": "com.company.hurtownia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916056259583-qru1mkh4uoroqmcu2mpro73iin2ad7o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXLhFbz76Mh00fFmgoPAi83-HfGxhdBDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916056259583-qru1mkh4uoroqmcu2mpro73iin2ad7o1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

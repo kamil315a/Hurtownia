@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Hurtownia</string>
+    <string name="Banner">VegeFrut</string>
+    <string name="Describe">Fresh is our brand</string>
+    <string name="HintPassword">Password</string>
+    <string name="IdPassword">Password</string>
+    <string name="EmailAddress">Email Address</string>
+    <string name="HintEmailAddress">Email Address</string>
+    <string name="Login">Login</string>
+    <string name="ForgotPass">Forgot Password</string>
+    <string name="Register">Register</string>
+    <string name="NickName">Nick Name</string>
+    <string name="RegisterUser">Register User</string>
+    <string name="Apple">Apple</string>
+    <string name="signOutButton">Sign Out</string>
+    <string name="disconnectButton">Disconnect</string>
+    <string name="defaultWebClientId">916056259583-o0ihr45ch0huekctq76kpnc85eea3gsu.apps.googleusercontent.com</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

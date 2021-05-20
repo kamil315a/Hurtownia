@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser">
+
+    <TextView
+        android:id="@+id/Banner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/Banner"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/Describe"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/Banner"
+        app:layout_constraintStart_toStartOf="@+id/Banner"
+        app:layout_constraintTop_toBottomOf="@+id/Banner" />
+
+    <EditText
+        android:id="@+id/NickName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/NickName"
+        app:layout_constraintEnd_toEndOf="@+id/Describe"
+        app:layout_constraintStart_toStartOf="@+id/Describe"
+        app:layout_constraintTop_toBottomOf="@+id/Describe"
+        tools:ignore="LabelFor"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/EmailAdress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:ems="10"
+
+        android:inputType="textEmailAddress"
+        android:text="@string/EmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/NickName"
+        app:layout_constraintStart_toStartOf="@+id/NickName"
+        app:layout_constraintTop_toBottomOf="@+id/NickName"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/IdPassword"
+        app:layout_constraintEnd_toEndOf="@+id/EmailAdress"
+        app:layout_constraintStart_toStartOf="@+id/EmailAdress"
+        app:layout_constraintTop_toBottomOf="@+id/EmailAdress"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/RegisterUser"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/RegisterUser"
+        app:layout_constraintEnd_toEndOf="@+id/Banner"
+        app:layout_constraintStart_toStartOf="@+id/Banner"
+        app:layout_constraintTop_toBottomOf="@+id/Password" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/RegisterUser"
+        app:layout_constraintStart_toStartOf="@+id/RegisterUser"
+        app:layout_constraintTop_toBottomOf="@+id/RegisterUser" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
