@@ -1,4 +1,5 @@
 # Hurtownia
-20.05.2021_1.0v
+
+The project will not be developed
 
 
