@@ -1,5 +1,5 @@
 # Hurtownia
 
-The project will not be developed
+My first steps in Android world. Its painfull to watch
 
 
